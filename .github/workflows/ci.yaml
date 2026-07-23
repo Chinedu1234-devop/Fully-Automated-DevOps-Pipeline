@@ -19,7 +19,7 @@ jobs:
         run:
           docker build -t thedevopschinedu/complete-devops-project:${{ env.SHORT_SHA }} .
       - name: Log in to DockerHub
-        run: echo "${{ secrets.DOCKER_TOKEN }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
+        run: echo "${{ secrets.DOCKERHUB_TOKEN }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
       - name: Push Dockerhub
         run:
          docker push thedevopschinedu/complete-devops-project:${{ env.SHORT_SHA }}
