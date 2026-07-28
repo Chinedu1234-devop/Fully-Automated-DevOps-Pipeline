@@ -1,6 +1,6 @@
 image:
  repository: chinedu10/complete-devops-project
- tag: "latest"
+ tag: "ea6e343"
  pullPolicy: IfNotPresent
 service:
  type: ClusterIP
