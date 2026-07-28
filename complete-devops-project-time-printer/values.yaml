@@ -1,10 +1,6 @@
 image:
  repository: chinedu10/complete-devops-project
-<<<<<<< HEAD
- tag: d9cc9dc
-=======
- tag: d9cc9dc
->>>>>>> 7864637afead56332b0ce80fd3431668e53c810d
+ tag: "6b66cf1"
  pullPolicy: IfNotPresent
 service:
  type: ClusterIP
