@@ -1,9 +1,9 @@
 image:
  repository: chinedu10/complete-devops-project
 <<<<<<< HEAD
- tag: "ea6e343"
+ tag: d9cc9dc
 =======
- tag: 9e7341e
+ tag: d9cc9dc
 >>>>>>> 7864637afead56332b0ce80fd3431668e53c810d
  pullPolicy: IfNotPresent
 service:
