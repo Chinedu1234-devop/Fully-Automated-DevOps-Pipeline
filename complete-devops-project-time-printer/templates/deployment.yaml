@@ -10,7 +10,7 @@ spec:
   {{- end }}
   selector:
     matchLabels:
-      {{- include "complete-devops-project-time-printer.Labels" . | nindent 6 }}
+      {{- include "complete-devops-project-time-printer.labels" . | nindent 6 }}
   template:
     metadata:
       {{- with .Values.podAnnotations }}
