@@ -1,12 +1,12 @@
 image:
  repository: chinedu10/complete-devops-project
 <<<<<<< HEAD
- tag: "6b66cf1"
+ tag: 1f383ca
 =======
 <<<<<<< HEAD
- tag: 6b66cf1
+ tag: 1f383ca
 =======
- tag: 6b66cf1
+ tag: 1f383ca
 >>>>>>> 7864637afead56332b0ce80fd3431668e53c810d
 >>>>>>> 012e9b516138326241db35fe4a259a3b9cd94478
  pullPolicy: IfNotPresent
